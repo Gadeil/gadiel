@@ -1,10 +1,24 @@
-#1. importar la clase 
-from personaje import *
+# class pesonaje:
+# #atributos del pesonaje
+# especie="humano"
+# nombre="Octane"
+# altura=1.85
 
-#2. Instanciar un objeto
-heroe=personaje()
+# #metoods personaje
+#  def correr(self,status):
+#      if(status):
+#          print("el personaje"+self.nombre+"esta corriendo")
+#     else:
+#         print("el personaje"+self.nombre+"se detuvo")
 
-#3. Acceder a sus atributos
-print("el personaje pertenece a la raza: "+ heroe.especie)
-print("se llama: "+ heroe.nombre)
-print("mide: "+ str(heroe.altura)+"metros")
+# #metodo lanzar granada
+
+# def lanzarGranada (self):
+#     print("se lanzo granada")
+
+# #metodo recargar arma
+
+# def recargarArma(self,municiones):
+#     cargador=30
+#     cargador = cargador + municiones 
+#     print("el arma tiene ahora"+cargador+"balas")
